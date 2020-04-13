@@ -58,6 +58,8 @@ def print_word(word, guessed_letter):
         else:
             newword += "-"
     print(list(newword))
+    # return for webapp
+    return newword
 
 
 def play_hangman():
